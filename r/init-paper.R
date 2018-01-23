@@ -1,0 +1,28 @@
+# install_github("ggbiplot", "vqv")
+library(ggplot2)
+library(magrittr)
+library(dplyr)
+library(gridExtra) 
+library(gridBase)
+# library(ggbiplot)
+library(plyr)
+library(scales)
+library(grid)
+library(rpart.plot)
+library(tidyr)
+# Maybe remove this! 
+# library(glmnet)
+# Maybe remove this! 
+source('r/init.R')
+source('r/paper.R') 
+source('r/neurostrr.r') 
+source('r/data-handle.R') 
+# comment till I define data point selection
+source('r/paper-data.R')
+# source('~/code/neuro-intermorpho/R/bbp-data.R')
+set_xtable_options() 
+
+m <- read_metadata()
+m <- subset(m, id %in% rownames(dataset))  
+m <- droplevels(m) 
+# m$layer <- gsub('23', '2/3', m$layer) 

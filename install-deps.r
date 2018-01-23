@@ -1,0 +1,10 @@
+# install.packages('dplyr')
+# install.packages('glmnet')
+# install.packages('randomForest')
+# install.packages('kknn')
+# install.packages('e1071')
+# install.packages('nat')
+# install.packages('tidyr')
+# install.packages('rpart.plot') 
+# devtools::install_github('vqv/ggbiplot') 
+# gridExtra etc.  

@@ -1,0 +1,40 @@
+type,variable
+Laminar,l1_prob
+Laminar,translaminar
+MC arborization pattern,l1_width
+MC arborization pattern,l1_gx
+MC arborization pattern,l1_gxa
+MC arborization pattern,l1_gy
+MC arborization pattern,l1_mean
+MC arborization pattern,l1_bifs
+XY distribution / PCA,radial
+XY distribution / PCA,eccentricity
+XY distribution / Moments,com.dist
+XY distribution / Moments,x_mean_abs
+XY distribution / Moments,x_sd
+XY distribution / Moments,x_std_mean
+XY distribution / Moments,y_mean
+XY distribution / Moments,y_sd
+XY distribution / Moments,y_std_mean
+XY distribution / Moments,x_mean
+XY distribution / Moments,x_std_mean_abs
+XY distribution / Moments,y_mean_abs
+XY distribution / Moments,y_std_mean_abs
+XY distribution / Horizontal,horizontal_cx
+XY distribution / Horizontal,horizontal_cxo
+XY distribution / Horizontal,horizontal_horizontal_growth
+XY distribution / Moments,ratio_x
+XY distribution / Moments,ratio_y
+XY distribution / Grid,grid_area
+XY distribution / Grid,grid_mean
+XY distribution / Grid,grid_sd
+XY distribution / Grid,grid_density
+XY distribution / Axon origin,axon_origin
+XY distribution / Axon origin,axon_above_below
+Arbor density,density_area
+Arbor density,density_bifs
+Arbor density,density_dist
+ChC arborization pattern,short_vertical_terminals
+Dendritic polarity,insert.eccentricity
+Dendritic polarity,insert.radial
+Dendritic displaced,displaced

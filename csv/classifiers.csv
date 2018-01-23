@@ -1,0 +1,13 @@
+Classifier,Abbreviation,Reference,R_Package,R_Package_reference,included,prespecified_parameters,grid_parameters,Comment,caption
+Ada boosting,ADA,,adabag,,FALSE,,,NA,"Classification algorithms and their parameterization. For kNN, $p = 2$ stands for Euclidean distance. RBF: radial basis function. Remaining parameters are defined in the supplementary material. \pkg{R} package is the library implementing the method."
+Classification and regression trees,CART,\citep{Breiman1984},rpart,\citep{rpart2016},NA,"$|\mathcal{D}^a|$ = 10, $|\mathcal{D}^l| = 5$",,NA,"Classification algorithms and their parameterization. For RMLR, $\alpha = 1$ stands for lasso regularization. RBF: radial basis function. For kNN, $p = 2$ stands for Euclidean distance. Remaining parameters are defined in the supplementary material. \pkg{R} package is the package implementing the method."
+Conditional inference trees,CF,,party,,FALSE,$t = 1000$,,NA,
+k nearest neighbors,kNN,"\citep{Fix1951,Cover1967}",kknn,\citep{Hechenbichler2004},NA,"$k = 5$, $p = 2$ unweighted","$k \in \{1,3,\dots,13 \}$",NA,
+Linear discriminant analysis,LDA,"\citep{Rao1948,Ripley2007}",MASS,\citep{MASS2016},NA,,,NA,
+Linear regression,LR,,,,FALSE,,,,
+Gaussian naïve Bayes,NB,\citep{Minsky1961},e1071,\citep{e10712016},NA,,,NA,
+Artificial neural network,NN,,nnet,,FALSE,,,NA,
+Random forest,RF,\citep{Breiman2001},randomForest,\citep{randomForest2016},NA,"$T = 2000$, $m = \sqrt{n}$","$m \in \{5, 10,20,\ldots\,50\}$",NA,
+Lasso regularized logistic regression,RMLR,"\citep{Tibshirani1996,Hastie2009,Friedman2010}",glmnet,\citep{Friedman2010},NA,$\lambda = 0.01$,Up to 100 different $\lambda$ ,This is lasso logreg,
+Support vector machine,SVM,"\citep{Boser1992,Cortes1995}",e1071,"\citep{e10712016,Chang2011}",NA,"RBF: $\gamma = \frac{1}{n}$, $C = 1$","$C \in \{2^{-5},\ldots\,2^5\}$ $\gamma \in \{2^{-5},\ldots\,2^5\}$",NA,
+Regularized multinomial regression,RMLR-true,"\citep{Tibshirani1996,Hastie2009,Friedman2010}",glmnet,\citep{Friedman2010},FALSE,$\alpha = 1$ $\lambda = 0.01$,Up to 100 different $\lambda$ ,NA,

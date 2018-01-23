@@ -1,0 +1,9 @@
+Method,Abbreviation,Reference,R_Package,R_Package_reference,included,prespecified_parameters,Learner_parameters
+Kruskal-Wallis test,KW,,stats,\citep{RCore2016},,$\alpha = 0.05$ adjust = FDR,
+RF BVI,RF BVI,,randomForest,\citep{randomForest2016},,$bvi > 0.01$,"$T = 20000$, $m = \sqrt{n}$"
+RF backward elimination,RFE,,varSelRF,\citep{DiazUriarte2014},FALSE,"$p = \max(0.05 n, 1),$ $t2 = 2000$ $se = 0$",$\mathcal{D}^l = 1$ $t= 20000$
+Relief ranking,,,,,FALSE,Top 50,
+Backward sequential,,,,,FALSE,"Epsilon = 0.05, NB",
+Bolasso,BL,,Custom implementation,,FALSE,$b = 8$,
+SMOTE,,,mlr,\citep{Bischl2015},,$k = 5$,
+CV,,,mlr,\citep{Bischl2015},,$r = 10$," k = 10, for ChC k=7"
